@@ -1,0 +1,39 @@
+body {
+  /*margin: 50;*/
+  min-height: 100vh;
+  min-width: 100vw;
+
+/*  background: url('./images/Logo_design.png'), url('./images/Myproject.png'), url('./images/Myproject1.png'), url('./images/texture.jpg');
+  background-size: cover, auto, auto, cover;
+  background-position: center,left bottom, right top, center;
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;*/
+
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face{
+font-family: 'D.Signature';
+    src:url('./fonts/D_Signature.woff') format('woff');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,69 @@
+
+body{
+
+  background: url('./images/texture.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background: url('./images/texture.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
+
+
+h1 {
+  font-family: 'D.Signature';
+  min-height: 15vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 65px;
+  color: #493c06;
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+  word-break: keep-all;
+  font-family: 'D.Signature';
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  color: #493c06;
+  
+  }
+}
+
+.centerText {
+  font-family: 'D.Signature';
+  min-height: 1vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  color: #493c06;
+}
+
+@media only screen and (max-width: 400px) {
+  .centerText {
+  font-family: 'D.Signature';
+  min-height: 1vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  color: #493c06;
+  }
+}

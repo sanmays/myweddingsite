@@ -1,0 +1,14 @@
+nav {
+	font-family: "HelveticaNeue-Light"/*, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif*/; 
+	font-weight: 600;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	object-position: sticky;
+}
+
+
+/*.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}*/
