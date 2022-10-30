@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/sanshine/static/css/main.f2e287eb.css",
-    "main.js": "/sanshine/static/js/main.f855ae09.js",
-    "static/js/787.a8bb5ff7.chunk.js": "/sanshine/static/js/787.a8bb5ff7.chunk.js",
-    "static/media/texture.jpg": "/sanshine/static/media/texture.305cd1cc529d66913591.jpg",
-    "static/media/Myproject1.png": "/sanshine/static/media/Myproject1.d6b2c99f3047841c6a48.png",
-    "static/media/Myproject.png": "/sanshine/static/media/Myproject.0882522cb546e30f58c4.png",
-    "static/media/D_Signature.woff": "/sanshine/static/media/D_Signature.46cb14cc2d3b847131e3.woff",
-    "static/media/Logodesign_Small.png": "/sanshine/static/media/Logodesign_Small.b741320b963888b0762e.png",
-    "static/media/icons_watch.svg": "/sanshine/static/media/icons_watch.5b2dba78ef58154478a326222c485f04.svg",
-    "static/media/icons_mountains.svg": "/sanshine/static/media/icons_mountains.56f7a5039095f58b5709128f18eb4433.svg",
-    "static/media/icons_tent.svg": "/sanshine/static/media/icons_tent.de2df4589a421fea5fe0e2cdad783580.svg",
-    "index.html": "/sanshine/index.html",
-    "main.f2e287eb.css.map": "/sanshine/static/css/main.f2e287eb.css.map",
-    "main.f855ae09.js.map": "/sanshine/static/js/main.f855ae09.js.map",
-    "787.a8bb5ff7.chunk.js.map": "/sanshine/static/js/787.a8bb5ff7.chunk.js.map"
+    "main.css": "/myweddingsite/static/css/main.523d7d92.css",
+    "main.js": "/myweddingsite/static/js/main.7f5ba0a1.js",
+    "static/js/787.a8bb5ff7.chunk.js": "/myweddingsite/static/js/787.a8bb5ff7.chunk.js",
+    "static/media/texture.jpg": "/myweddingsite/static/media/texture.305cd1cc529d66913591.jpg",
+    "static/media/Myproject1.png": "/myweddingsite/static/media/Myproject1.d6b2c99f3047841c6a48.png",
+    "static/media/Myproject.png": "/myweddingsite/static/media/Myproject.0882522cb546e30f58c4.png",
+    "static/media/D_Signature.woff": "/myweddingsite/static/media/D_Signature.46cb14cc2d3b847131e3.woff",
+    "static/media/Logodesign_Small.png": "/myweddingsite/static/media/Logodesign_Small.b741320b963888b0762e.png",
+    "static/media/icons_watch.svg": "/myweddingsite/static/media/icons_watch.5b2dba78ef58154478a326222c485f04.svg",
+    "static/media/icons_mountains.svg": "/myweddingsite/static/media/icons_mountains.56f7a5039095f58b5709128f18eb4433.svg",
+    "static/media/icons_tent.svg": "/myweddingsite/static/media/icons_tent.de2df4589a421fea5fe0e2cdad783580.svg",
+    "index.html": "/myweddingsite/index.html",
+    "main.523d7d92.css.map": "/myweddingsite/static/css/main.523d7d92.css.map",
+    "main.7f5ba0a1.js.map": "/myweddingsite/static/js/main.7f5ba0a1.js.map",
+    "787.a8bb5ff7.chunk.js.map": "/myweddingsite/static/js/787.a8bb5ff7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f2e287eb.css",
-    "static/js/main.f855ae09.js"
+    "static/css/main.523d7d92.css",
+    "static/js/main.7f5ba0a1.js"
   ]
 }
