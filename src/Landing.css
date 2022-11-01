@@ -1,14 +1,17 @@
 body{
 
-  background: /*url('./images/Logodesign_Small.png'),*/ url('./images/Myproject.png'), url('./images/Myproject1.png'), url('./images/texture.jpg');
-  background-size: /*cover*/ auto, auto, cover;
-  background-position: /*center*/ left bottom, right top, center;
-  background-repeat: /*no-repeat*/ no-repeat, no-repeat, no-repeat;
+  
+  background: /*url('./images/Logodesign_Small.png'),*/ url('./images/Myproject.png'), url('./images/Myproject1.png')/*, url('./images/texture.jpg')*/;
+  background-size: /*cover*/ auto, auto/*, cover*/;
+  background-position: /*center*/ left bottom, right top/*, center*/;
+  background-repeat: /*no-repeat*/ no-repeat, no-repeat/*, no-repeat*/;
+  background-color: #fffff;
+
   }
 
 
 @media only screen and (max-width: 600px) {
-  .body {
+  body {
     background: /*url('./images/Logodesign_Small.png'),*/ url('./images/Myproject.png'), url('./images/Myproject1.png'), url('./images/texture.jpg');
     background-size: /*cover*/ auto, auto, cover;
     background-position: /*center*/left bottom, right top, center;
