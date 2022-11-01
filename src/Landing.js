@@ -26,9 +26,9 @@ const Landing = ({ onRsvpButtonSubmit }) => {
             To RSVP and more...
           </button>*/}
           <p 
-            className='rsvpLink f4 mh3 link dim underline pointer' style={{'paddingBottom': '80px'}}  
+            className='rsvpLink f3 mh3 link dim pointer' style={{'paddingBottom': '80px'}}  
             onClick={onRsvpButtonSubmit}>
-            To RSVP and more...
+            RSVP & more
           </p>
         </div>
       </div>
