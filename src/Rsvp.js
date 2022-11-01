@@ -74,30 +74,30 @@ class Rsvp extends React.Component {
 						    <fieldset id="sign_up" className="ba b--transparent ph0 mh0">
 						      <legend className="f4 fw6 ph0 mh0 center">Register</legend>
 						      <div className="mt3">
-						        <label className="db fw6 lh-copy f4" htmlFor="lastName">Last Name</label>
+						        <label className="db fw6 lh-copy f4" htmlFor="lastName">First Name</label>
 						        <input 
 						        className="pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100" 
 						        type="search" 
 						        name="lastName"  
 						        id="lastName" 
-						        onChange={this.onLastNameChange}
+						        onChange={this.onFirstNameChange}
 						        />
 						      </div>
 						      <div className="mv3">
-						        <label className="db fw6 lh-copy f4" htmlFor="firstName">First Name</label>
+						        <label className="db fw6 lh-copy f4" htmlFor="firstName">Last Name</label>
 						        <input 
 						        className="b pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100" 
 						        type="text" 
 						        name="firstName"  
 						        id="firstName" 
-						        onChange={this.onFirstNameChange}
+						        onChange={this.onLastNameChange}
 						        />
 						      </div>
 						    </fieldset>
 						    <div className="">
 						      <input
 						      	onClick={this.onSubmitRegister} 
-						      	className="b ph3 pv2 input-reset ba b--black bg-transparent grow pointer f4 dib" 
+						      	className="b ph3 pv2 input-reset ba b--black bg-transparent grow pointer f4 dib black" 
 						      	type="submit" 
 						      	value="Submit"
 						      	 />
