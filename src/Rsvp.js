@@ -72,7 +72,7 @@ class Rsvp extends React.Component {
 						<main className="pa4 black-80">
 						  <div className="measure center">
 						    <fieldset id="sign_up" className="ba b--transparent ph0 mh0">
-						      <legend className="f4 fw6 ph0 mh0">Tell us who you are</legend>
+						      <legend className="f4 fw6 ph0 mh0 center">Register</legend>
 						      <div className="mt3">
 						        <label className="db fw6 lh-copy f4" htmlFor="lastName">Last Name</label>
 						        <input 
