@@ -1,6 +1,7 @@
 import React from 'react';
 import './Rsvp.css';
 import { guestsSG } from './guestsSG.js'
+import { guestsSS } from './guestsSS.js'
 
 
 class Rsvp extends React.Component {
@@ -11,9 +12,12 @@ class Rsvp extends React.Component {
 			firstName: '',
 			lastName: '',
 			guestsSG: guestsSG,
+			guestsSS: guestsSS,
 			id: '',
-			lastNameMatch: '',
-			firstNameMatch: ''
+			lastNameMatchMum: '',
+			firstNameMatchMum: '',
+			lastNameMatchPun: '',
+			firstNameMatchPun: ''
 		}
 	}
 
@@ -29,22 +33,23 @@ class Rsvp extends React.Component {
 
 	onSubmitRegister = () => {
 
-		const lastNameMatch = this.state.guestsSG.filter(guestsSG =>{
+		
+		// check if user is in Mumbai Guest list
+		const lastNameMatchMum = this.state.guestsSG.filter(guestsSG =>{
 			return guestsSG.LastName.toLowerCase().includes(this.state.lastName.toLowerCase());
 		})
 
-		const firstNameMatch = this.state.guestsSG.filter(guestsSG =>{
+		const firstNameMatchMum = this.state.guestsSG.filter(guestsSG =>{
 			return guestsSG.FirstName.toLowerCase().includes(this.state.firstName.toLowerCase());
 		})
 
 
-		let userValid = false;
-		while((lastNameMatch.length < guestsSG.length) && (firstNameMatch.length < guestsSG.length)){
-			for (let i = 0; i<lastNameMatch.length; i++){
-		 		for (let j = 0; j<firstNameMatch.length; j++){
-		 			if (lastNameMatch[i].id === firstNameMatch[j].id) {
-		 				console.log(i, j);
-		 				userValid = true;
+		let userValidMum = false;
+		while((lastNameMatchMum.length < guestsSG.length) && (firstNameMatchMum.length < guestsSG.length)){
+			for (let i = 0; i<lastNameMatchMum.length; i++){
+		 		for (let j = 0; j<firstNameMatchMum.length; j++){
+		 			if (lastNameMatchMum[i].id === firstNameMatchMum[j].id) {
+		 				userValidMum = true;
 		 				break;
 		 			} else {
 		 				continue;
@@ -52,15 +57,46 @@ class Rsvp extends React.Component {
 	 			}
 	 		}
 	 		break;
-		} 
+		}
 
-		if (userValid === true){
+
+
+		// check if user is in Pune Guest list
+		const lastNameMatchPun = this.state.guestsSS.filter(guestsSS =>{
+			return guestsSS.LastName.toLowerCase().includes(this.state.lastName.toLowerCase());
+		})
+
+		const firstNameMatchPun = this.state.guestsSS.filter(guestsSS =>{
+			return guestsSS.FirstName.toLowerCase().includes(this.state.firstName.toLowerCase());
+		})
+
+		let userValidPun = false;
+		while((lastNameMatchPun.length < guestsSS.length) && (firstNameMatchPun.length < guestsSS.length)){
+			for (let i = 0; i<lastNameMatchPun.length; i++){
+		 		for (let j = 0; j<firstNameMatchPun.length; j++){
+		 			if (lastNameMatchPun[i].id === firstNameMatchPun[j].id) {
+		 				userValidPun = true;
+		 				break;
+		 			} else {
+		 				continue;
+		 			}
+	 			}
+	 		}
+	 		break;
+		}
+
+		// Lead to the correct page
+
+		if (userValidMum === true){
 			this.props.onRouteChange('MumbaiInfo')
+		} else if (userValidPun === true){
+			this.props.onRouteChange('PuneInfo')
+			console.log('Pune guest')
 		} else {
 			alert('Your last or first name or both could not be validated. Please make sure you entered the correct name.');
 	 		this.props.onRouteChange('Rsvp');
 		}
-	 	console.log(userValid);
+	 	
 		
 	}
 
