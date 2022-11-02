@@ -47,7 +47,7 @@ class App extends Component {
         ? <MumbaiInfo onRouteChange={this.onRouteChange}/>
         : <>{this.state.route === 'PuneInfo'
         ? <PuneInfo onRouteChange={this.onRouteChange}/>
-        : <Rsvp onRouteChange={this.onRouteChange} /*lastNameChange={this.onLastNameChange} firstNameChange={this.onFirstNameChange}*//>
+        : <Rsvp onRouteChange={this.onRouteChange}/>
         }
         </> 
         }
@@ -62,23 +62,3 @@ class App extends Component {
 }
 
 export default App;
-
-
-
-  // render (){
-
-  //   return (
-  //     <div className='pa5 App tc'>
-  //       <Navigation onRouteChange={this.onRouteChange}/>
-  //       { this.state.route === 'App'
-  //       ? <Landing 
-  //           className='home pa3'
-  //           onRsvpButtonSubmit={this.onRsvpButtonSubmit}/>
-  //       : {{ this.state.route === 'MumbaiInfo'
-  //       ? <MumbaiInfo onRouteChange={this.onRouteChange}/>
-  //       : <Rsvp onRouteChange={this.onRouteChange}/>
-  //       }}
-  //       }
-  //     </div>
-  //     )
-  // }
