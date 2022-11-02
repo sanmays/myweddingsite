@@ -7,7 +7,9 @@ import Navigation from './Navigation.js';
 import Rsvp from './Rsvp.js'
 import Landing from './Landing.js'
 import MumbaiInfo from './MumbaiInfo.js';
-import { guestsSG } from './guestsSG.js';
+// import { guestsSG } from './guestsSG.js';
+import PuneInfo from './PuneInfo.js';
+// import { guestsSS } from './guestsSS.js';
 
 
 
@@ -17,7 +19,7 @@ class App extends Component {
     this.state = {
 
       route: 'App',
-      guestsSG: guestsSG
+      // guestsSG: guestsSG
       }
     }
   
@@ -43,7 +45,11 @@ class App extends Component {
             onRsvpButtonSubmit={this.onRsvpButtonSubmit}/>
         : <>{ this.state.route === 'MumbaiInfo'
         ? <MumbaiInfo onRouteChange={this.onRouteChange}/>
+        : <>{this.state.route === 'PuneInfo'
+        ? <PuneInfo onRouteChange={this.onRouteChange}/>
         : <Rsvp onRouteChange={this.onRouteChange} /*lastNameChange={this.onLastNameChange} firstNameChange={this.onFirstNameChange}*//>
+        }
+        </> 
         }
         </>
         }
