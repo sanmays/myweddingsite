@@ -26,7 +26,6 @@ class App extends Component {
   }
 
   onRouteChange = (route) => {
-    // console.log('home');
     this.setState({route: route});
   }
 
@@ -62,4 +61,4 @@ class App extends Component {
 
 }
 
-export default App; 
+export default App;
