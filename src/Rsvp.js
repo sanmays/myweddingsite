@@ -91,7 +91,6 @@ class Rsvp extends React.Component {
 			this.props.onRouteChange('MumbaiPuneInfo')
 		} else if (userValidMum === true){
 			this.props.onRouteChange('MumbaiInfo')
-			console.log('Pune guest')
 		} else if (userValidPun === true){
 			this.props.onRouteChange('PuneInfo')
 		} else {
