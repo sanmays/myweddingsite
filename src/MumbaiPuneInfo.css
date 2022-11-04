@@ -1,0 +1,115 @@
+.tc{
+	font-family: "HelveticaNeue-Light"/*, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif*/; 
+	color: #493c06;
+}
+
+.when{
+	padding-top: 5vh;
+}
+
+
+.where{
+	padding-top: 5vh;
+}
+
+.rsvp{
+	padding-top: 5vh;
+	padding-bottom: 10vh;
+}
+
+/*@media only screen and (min-width: 1024px) {
+	.rsvp{
+		padding-top: 45%;
+	}
+}*/
+
+@media only screen and (min-width: 1024px) {
+  .when {
+	float: left;
+	display: block;
+	margin-right: 3%;
+	width: 32%;
+	margin-left: 3%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .where {
+	float: right;
+	display: block;
+	margin-right: 3%;
+	width: 32%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .rsvp {
+	float: left;
+	display: block;
+	margin-right: 3%;
+	width: 25%;
+	font-size: 30px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+	.eventTitle{
+		float: center;
+		display: block;
+		margin-right: 3%;
+		width: 25%;
+		font-size: 30px;
+		text-align: center;
+	}
+}
+
+.larger{
+	font-size: 20px;
+}
+
+@media only screen and (min-width: 1024px) {
+	.larger{
+		font-size: 25px;
+	}
+}
+
+
+
+.smaller{
+	font-size: 15px;
+}
+
+@media only screen and (min-width: 1024px) {
+	.smaller{
+		font-size: 20px;
+	}
+}
+
+
+.imgageWho{
+	height: 50px;
+	padding-bottom: 0px;
+}
+
+.headerWho{
+	margin-top: 0px;
+}
+
+.imgageWhen{
+	height: 50px;
+	padding-bottom: 0px;
+}
+
+.headerWhen{
+	margin-top: 0px;
+}
+
+.imgageWhere{
+	height: 50px;
+	padding-bottom: 0px;
+}
+
+.headerWhere{
+	margin-top: 0px;
+}
+

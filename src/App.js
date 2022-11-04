@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-// import Button from './Button';
 import './Button.css'
 import 'tachyons';
 import './App.css'
@@ -7,9 +6,8 @@ import Navigation from './Navigation.js';
 import Rsvp from './Rsvp.js'
 import Landing from './Landing.js'
 import MumbaiInfo from './MumbaiInfo.js';
-// import { guestsSG } from './guestsSG.js';
 import PuneInfo from './PuneInfo.js';
-// import { guestsSS } from './guestsSS.js';
+import MumbaiPuneInfo from './MumbaiPuneInfo.js';
 
 
 
@@ -19,7 +17,6 @@ class App extends Component {
     this.state = {
 
       route: 'App',
-      // guestsSG: guestsSG
       }
     }
   
@@ -45,9 +42,13 @@ class App extends Component {
             onRsvpButtonSubmit={this.onRsvpButtonSubmit}/>
         : <>{ this.state.route === 'MumbaiInfo'
         ? <MumbaiInfo onRouteChange={this.onRouteChange}/>
-        : <>{this.state.route === 'PuneInfo'
+        : <>{ this.state.route === 'PuneInfo'
         ? <PuneInfo onRouteChange={this.onRouteChange}/>
+        : <>{ this.state.route === 'MumbaiPuneInfo'
+        ? <MumbaiPuneInfo onRouteChange={this.onRouteChange}/>
         : <Rsvp onRouteChange={this.onRouteChange}/>
+        }
+        </>
         }
         </> 
         }
@@ -61,4 +62,27 @@ class App extends Component {
 
 }
 
-export default App;
+export default App; 
+
+
+
+
+    // return (
+    //   <div className='App tc'>
+    //     <Navigation onRouteChange={this.onRouteChange}/>
+    //     { this.state.route === 'App'
+    //     ? <Landing 
+    //         className='home pa3'
+    //         onRsvpButtonSubmit={this.onRsvpButtonSubmit}/>
+    //     : <>{ this.state.route === 'MumbaiInfo'
+    //     ? <MumbaiInfo onRouteChange={this.onRouteChange}/>
+    //     : <>{this.state.route === 'PuneInfo'
+    //     ? <PuneInfo onRouteChange={this.onRouteChange}/>
+    //     : <Rsvp onRouteChange={this.onRouteChange}/>
+    //     }
+    //     </> 
+    //     }
+    //     </>
+    //     }
+    //   </div>
+    //   )

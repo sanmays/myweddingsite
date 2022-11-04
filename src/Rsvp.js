@@ -87,11 +87,13 @@ class Rsvp extends React.Component {
 
 		// Lead to the correct page
 
-		if (userValidMum === true){
+		if ((userValidMum === true) && (userValidPun === true)){
+			this.props.onRouteChange('MumbaiPuneInfo')
+		} else if (userValidMum === true){
 			this.props.onRouteChange('MumbaiInfo')
+			console.log('Pune guest')
 		} else if (userValidPun === true){
 			this.props.onRouteChange('PuneInfo')
-			console.log('Pune guest')
 		} else {
 			alert('Your last or first name or both could not be validated. Please make sure you entered the correct name.');
 	 		this.props.onRouteChange('Rsvp');
