@@ -54,7 +54,7 @@ const MumbaiPuneInfo = ({onRouteChange}) => {
 			      onClick= {() => window.open('https://sanshine.rsvpify.com', '_blank', 'noreferrer')}>RSVP
 			      </h2>
 			    </div>
-			    <p className='smaller' style={{'marginBottom': '2px'}}>Please RSVP by 1st December 2022</p>	    
+			    <p className='smaller' style={{'marginBottom': '2px'}}>Please respond by 1st December 2022</p>	    
 		    </div>
 	    </div>
 
@@ -98,7 +98,7 @@ const MumbaiPuneInfo = ({onRouteChange}) => {
 			      onClick= {() => window.open('https://sanshinepune.rsvpify.com', '_blank', 'noreferrer')}>RSVP
 			      </h2>
 			    </div>
-			    <p className='smaller' style={{'marginBottom': '2px'}}>Please RSVP by 1st December 2022</p>
+			    <p className='smaller' style={{'marginBottom': '2px'}}>Please respond by 1st December 2022</p>
 		    </div>
 	    </div>    	    
 	</div>
