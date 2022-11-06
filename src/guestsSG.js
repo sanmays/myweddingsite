@@ -21,7 +21,7 @@ export const guestsSG = [
  },
  {
    id: 5,
-   LastName: "Mithbavkar",
+   LastName: "Mithabavkar",
    FirstName: "Subhash"
  },
  {
@@ -543,5 +543,65 @@ export const guestsSG = [
    id: 109,
    LastName: "Golatkar",
    FirstName: "Sakshi"
+ },
+  {
+   id: 110,
+   LastName: "Donde",
+   FirstName: "Prachi"
+ },
+ {
+   id: 111,
+   LastName: "Shaikh",
+   FirstName: "Fahim"
+ },
+  {
+   id: 112,
+   LastName: "Desai",
+   FirstName: "Lekhinee"
+ },
+ {
+   id: 113,
+   LastName: "Bhagwat",
+   FirstName: "Saumitra"
+ },
+  {
+   id: 114,
+   LastName: "Parkar",
+   FirstName: "Payal"
+ },
+ {
+   id: 115,
+   LastName: "Parkar",
+   FirstName: "Samay"
+ },
+  {
+   id: 116,
+   LastName: "Mithabavkar",
+   FirstName: "Nimisha"
+ },
+ {
+   id: 117,
+   LastName: "Samel",
+   FirstName: "Utsavi"
+ },
+  {
+   id: 118,
+   LastName: "Patole",
+   FirstName: "Trina"
+ },
+ {
+   id: 119,
+   LastName: "Parab",
+   FirstName: "Anika"
+ },
+  {
+   id: 120,
+   LastName: "Rane",
+   FirstName: "Kashmira"
+ },
+ {
+  id: 121,
+  LastName: "Parkar",
+  FirstName: "Surekha"
  }
 ]
