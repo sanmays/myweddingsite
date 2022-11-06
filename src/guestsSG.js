@@ -21,7 +21,7 @@ export const guestsSG = [
  },
  {
    id: 5,
-   LastName: "Mithbavkar",
+   LastName: "Mithabavkar",
    FirstName: "Subhash"
  },
  {
@@ -576,7 +576,7 @@ export const guestsSG = [
  },
   {
    id: 116,
-   LastName: "Mithbavkar",
+   LastName: "Mithabavkar",
    FirstName: "Nimisha"
  },
  {
