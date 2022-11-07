@@ -603,5 +603,21 @@ export const guestsSG = [
   id: 121,
   LastName: "Parkar",
   FirstName: "Surekha"
+ },
+  {
+  id: 122,
+  LastName: "Nadkar",
+  FirstName: "Zubaida"
+ },
+  {
+  id: 123,
+  LastName: "Bahri",
+  FirstName: "Sunil"
+ },
+  {
+  id: 124,
+  LastName: "Talreja",
+  FirstName: "Vijay"
  }
+
 ]
